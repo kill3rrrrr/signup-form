@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up Form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid form-box">
+		<div class="row">
+			<div class="col-md-4 signup">
+				<h4 >Enter your details</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 detail">
+				<input type="text" placeholder="Middle name" class="new-form-control">
+				<input type="text" placeholder="Name" class="new-form-control" required autofocus>
+				<input type="last name" placeholder="Surname" class="new-form-control" required>
+
+				<!-- Sex -->
+				<div class="row font-color font-color-block">
+					<div class="col-md-6">
+						<!-- Sex -->
+						<p>Sex</p>
+						<select class="font-color">
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Other">Other</option>
+						</select>
+
+					</div>
+
+
+					<div class="col-md-6">
+						<!-- Date -->
+						<p>Birthday</p>
+						<input type="date" class="font-color" name="bday">
+					</div>
+				</div>
+
+				<input type="email" placeholder="Email" class="new-form-control" required>
+				<input type="password" placeholder="password" class="new-form-control" required>
+				<button class="btn" type="submit">Sign up</button>
+			</div>
+		</div>
+		<div class="row footer"></div>
+
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	</body>
+</html>
